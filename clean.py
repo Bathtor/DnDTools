@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#! /usr/bin/env python3
 """ Cleaning script based on .gitignore file, the 'find' and 'rm' command.
 It removes files with .gitignore pattern. 
 
