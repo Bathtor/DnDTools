@@ -116,7 +116,6 @@ trait ServiceRouter extends HttpService {
 	}
 
 	def sendSpellList(id: Long): Elem = {
-		println("Getting spelllist for " + id);
 		val fS = spellService ? GetSpells;
 		val fM = spellService ? GetMemorised(id);
 		val fR = for {
